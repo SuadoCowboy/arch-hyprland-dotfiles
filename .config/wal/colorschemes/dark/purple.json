@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lucca/Imagens/background/lain-peeking.png",
+    "alpha": "100",
+    "special": {
+        "background": "#100023",
+        "foreground": "#BDB4C8",
+        "cursor": "#BDB4C8"
+    },
+    "colors": {
+        "color0": "#100023",
+        "color1": "#5E4D72",
+        "color2": "#6E5C82",
+        "color3": "#76648A",
+        "color4": "#8B77A1",
+        "color5": "#430A80",
+        "color6": "#806E94",
+        "color7": "#BDB4C8",
+        "color8": "#847D8C",
+        "color9": "#5E4D72",
+        "color10": "#6E5C82",
+        "color11": "#76648A",
+        "color12": "#8B77A1",
+        "color13": "#917FA6",
+        "color14": "#806E94",
+        "color15": "#BDB4C8"
+    }
+}

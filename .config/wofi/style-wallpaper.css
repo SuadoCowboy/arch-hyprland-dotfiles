@@ -1,0 +1,87 @@
+@import url('/home/lucca/.config/wofi/colorscheme.css');
+
+* {
+    all:unset;
+    font-family: 'CodeNewRoman Nerd Font Mono', monospace;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    text-shadow:none;
+    background-color:transparent;
+}
+
+window {
+    all:unset;
+    padding: 20px;
+    border-radius: 0px;
+    background-color: alpha(@background,.5);
+}
+#inner-box {
+    margin: 2px;
+    padding: 5px;
+    border: none;
+
+}
+#outer-box {    
+    border: none;
+}
+#scroll {
+    margin: 0px;
+    padding: 30px;
+    border: none;
+}
+#input {
+    all:unset;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    color: @color4;
+    box-shadow: 1px 1px 5px rgba(0,0,0, .5);
+    border-radius:10;
+    background-color: alpha(@background,.2);
+}
+#input image {
+    border: none;
+    color: @color2;
+    padding-right:10px;
+}
+#input * {
+    border: none;
+    outline: none;
+}
+
+#input:focus {
+    outline: none;
+    border: none;
+
+    border-radius:10;
+}
+#text {
+    margin: 5px;
+    border: none;
+    color: @color4;
+    outline: none;
+}
+#entry {
+    all:unset;
+    padding: 20 0 20 45;
+}
+#entry arrow {
+    border: none;
+    color: @color3;
+
+}
+#entry:selected {
+    border: none;
+    border-radius: 20px;
+    background-color: alpha(@background,.2);
+}
+#entry:selected #text {
+    color: @color1;
+}
+#entry:drop(active) {
+    background-color: @color3 !important;
+}
